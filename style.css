@@ -1,0 +1,49 @@
+.fw {
+    font-weight: bold; /* ou font-weight: 700; */
+}
+.blue {
+    color: blue; /* Un style supplémentaire */
+}
+.red {
+    color: red; /* Un style supplémentaire */
+}
+.green {
+    color: green; /* Un style supplémentaire */
+}
+.black {
+    color: black; /* Un style supplémentaire */
+}
+.white {
+    color: white; /* Un style supplémentaire */
+}
+img {
+    position: relative;
+    top: -210px;   /* Déplace l'image 20px vers le bas (loin du haut) */
+    left: 400px;  /* Déplace l'image 50px vers la droite (loin de la gauche) */
+}
+.text-align{
+    text-align: right;
+}
+.max-width{
+    max-width:0cqmax
+}
+.margin{
+    margin:auto
+}
+/* Style par défaut (quand la souris n'est PAS dessus) */
+.lien-interactif {
+    color: black; /* Texte bleu vif par défaut */
+    background-color: transparent;
+    text-decoration: none; /* Enlève le soulignement par défaut */
+    padding: 1px 6px;
+    border: 1px solid white;
+    transition: all 0.3s ease; /* Rend la transition douce */
+}
+
+/* Style au survol (quand la souris EST dessus) */
+.lien-interactif:hover {
+    color: white; /* Le texte devient blanc */
+    background-color: #007bff; /* Le fond devient bleu */
+    border-color: #0056b3; /* Changement subtil de la bordure */
+    cursor: pointer; /* Indique que l'élément est cliquable */
+}
